@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#f1f2f4;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+}
+header .logo img{
+    margin-top: 12px;
+}
+.search-container{
+    margin-top: 9px;
+    display: flex;
+    align-items: center;
+    background-color: #F0F5FF;
+    width: 32rem;
+    height: 2rem;
+    border-radius: 9px;
+    
+}
+#search{
+    background-color: #F0F5FF;
+    width: 32rem;
+    height: 1rem;
+    border-radius: 9px;
+    border: none;
+    color: black;
+}
+.mag{
+    margin-left: 14px;
+    color: gray;
+}
+
+.third-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.box button img{
+    margin-right: 6px;
+}
+.box button p{
+   display: inline-block;
+   text-align: center;
+}
+.box button{
+    padding: 20px;
+    background-color: transparent;
+    border: none;
+}
+.last-container img{
+    margin-top: 1.2rem;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 8rem;
+    width: 97vw;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 0.50rem;
+}
+.container .unstyle select{
+    border: none;
+}
+.search-container input:focus{
+    outline: none;
+}
+.login{
+    display: flex;
+    align-items: center;
+}
+.login div{
+    padding-right: 10px;
+}
+
